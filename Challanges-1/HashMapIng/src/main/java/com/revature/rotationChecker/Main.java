@@ -33,6 +33,7 @@ public class Main {
         }
         //create new string to check rotated string against
         String concat = test + test;
+        //abcdabcd
         //if new string contains the rotated one it'll be true else it'll be false
         boolean value = concat.contains(rotated);
         return value;

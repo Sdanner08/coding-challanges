@@ -7,7 +7,7 @@ Although these words end in "-ing", the "-ing" is not an inflection affix.
 Examples
 ingExtractor("coming bringing Letting sing") --> ["coming", "bringing", "Letting"]
 
-ingExtractor("going Ping, king sHrink dOing") --> ["going",, "dOing"]
+ingExtractor("going Ping, king sHrink dOing") --> ["going", "dOing"]
 
 ingExtractor("zing went ring, ding wing SINk") --> []
 
