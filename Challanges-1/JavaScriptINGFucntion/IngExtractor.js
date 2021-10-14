@@ -22,13 +22,13 @@ let string3 = "zing went ring, ding wing SINk";
 console.log(ingExtractor(string));
 console.log(ingExtractor(string2));
 console.log(ingExtractor(string3));
+console.log("---------------------------------");
 
 //function to return only non mono-syllabic words
 function ingExtractor(string){
     var input= string.replace(/[^\w\s]/gi, '');
     //This will split the String into an array so we can check the length of the strings -source link-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
     const array = input.split(" ");
-    console.log(array);
     //New Array to be returned
     let returnString = new Array();
     //calls function to check length of the word
@@ -44,5 +44,5 @@ function ingExtractor(string){
             } 
         }
     }
-    console.log(returnString);
+    return returnString;
 }
